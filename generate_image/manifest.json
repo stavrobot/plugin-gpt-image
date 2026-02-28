@@ -2,6 +2,7 @@
   "name": "generate_image",
   "description": "Generate an image from a text prompt using gpt-image-1.",
   "entrypoint": "run.py",
+  "async": true,
   "parameters": {
     "prompt": {
       "type": "string",

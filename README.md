@@ -4,9 +4,7 @@ Generate images from text prompts using OpenAI's gpt-image-1 model.
 
 ## Install
 
-```
-stavrobot plugin install <git-url>
-```
+Ask Stavrobot to install `https://github.com/stavrobot/plugin-gpt-image`.
 
 ## Configuration
 
