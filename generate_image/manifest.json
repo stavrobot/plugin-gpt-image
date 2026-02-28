@@ -1,0 +1,23 @@
+{
+  "name": "generate_image",
+  "description": "Generate an image from a text prompt using gpt-image-1.",
+  "entrypoint": "run.py",
+  "parameters": {
+    "prompt": {
+      "type": "string",
+      "description": "The text prompt describing the image to generate."
+    },
+    "size": {
+      "type": "string",
+      "description": "Image size. One of: 1024x1024, 1536x1024, 1024x1536. Defaults to 1024x1024."
+    },
+    "quality": {
+      "type": "string",
+      "description": "Image quality. One of: low, medium, high. Defaults to medium."
+    },
+    "output_format": {
+      "type": "string",
+      "description": "Output format. One of: png, jpeg, webp. Defaults to png."
+    }
+  }
+}
