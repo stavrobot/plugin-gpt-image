@@ -1,6 +1,7 @@
 {
   "name": "gpt-image",
   "description": "Generate images using OpenAI's gpt-image-1 model.",
+  "summary": "Generate images using OpenAI gpt-image-1",
   "config": {
     "api_key": {
       "description": "OpenAI API key",
